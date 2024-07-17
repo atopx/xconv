@@ -1,0 +1,13 @@
+[package]
+name = "xconv"
+version = "0.1.0"
+edition = "2021"
+authors = ["atopx <3940422@qq.com>"]
+description = "A high-performance batch file encoding conversion tool"
+license = "MIT"
+repository = "https://github.com/atopx/xconv"
+
+[dependencies]
+encoding_rs = "0.8.34"
+structopt = "0.3.26"
+tokio = { version = "1", features = ["full"] }
